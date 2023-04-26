@@ -1,6 +1,5 @@
-
+/* Root starts here */
 :root {
-
   --smokey-black: #323232;
   --white_a9: #CAC0B3;
   --white: #CAC0B3;
@@ -21,28 +20,38 @@
   --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
 
 }
+/* Root ends here */
 
+/* Particles.js starts here */
 #particles-js{
   height: 100vh;
 }
+/* Particles.js ends here */
 
+/* Li tag starts here */
 li { list-style: none; }
+/* Li tag ends here */
 
-
-
+/* A tag starts here */
 a {
   color: inherit;
   text-decoration: none;
 }
+/* A tag ends here */
 
+/* Img tag starts here */
 img { height: auto; }
+/* Img tag ends here */
 
+/* Html starts here */
 html {
   font-family: var(--ff-gordita);
   font-size: 10px;
   scroll-behavior: smooth;
 }
+/* Html ends here */
 
+/* Body starts here */
 body {
   background-color: var(--smokey-black);
   color: var(--white);
@@ -50,9 +59,9 @@ body {
   line-height: 2.15;
   overflow-x: hidden;
 }
+/* Body ends here */
 
-
-
+/* Font tags start here */
 .h1,
 .h2,
 .h3,
@@ -83,17 +92,19 @@ body {
 .h5 { font-size: var(--fs-5); }
 
 .h6 { font-size: var(--fs-6); }
+/* Font tags end here */
 
 
-
-
+/* Img-cover class starts here */
 .img-cover {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
+/* Img-cover class ends here */
 
+/* Btn-icon class starts here */
 .btn-icon {
   background-color: var(--bg-color, var(--white));
   border-radius: var(--border-radius, var(--radius-circle));
@@ -101,8 +112,9 @@ body {
   place-content: center;
   transition: var(--transition-2);
 }
+/* Btn-icon class ends here */
 
-
+/* Data reveal starts here */
 [data-reveal] {
   transform: translateY(50px);
   opacity: 0;
@@ -117,20 +129,26 @@ body {
   transform: translate(0, 0);
   opacity: 1;
 }
+/* Data reveal ends here */
 
+
+/* Hero class starts here */
 .hero {
   margin-top: -60%;
   text-align: center;
 }
+/* Hero class ends here */
 
-
+/* Hero & wrapper classes start here */
 .hero .wrapper {
   position: relative;
   text-align: left;
   height: 1.2em;
   margin-block: 10px 25px;
 }
+/* Hero & wrapper classes end here */
 
+/* Wrapper & strong classes start here */
 .wrapper .strong {
   position: absolute;
   top: 0;
@@ -140,21 +158,28 @@ body {
   font-weight: inherit;
   display: flex;
 }
+/* Wrapper & strong classes end here */
 
-
+/* Hero, wrapper & strong classes start here */
 .hero .wrapper .space { padding: 0.1em; }
+/* Hero, wrapper & strong classes end here */
 
+/* Hero & wrapper classes start here */
 .hero .wrapper :is(.in, .out) {
   opacity: 0;
   transform: scaleY(0);
 }
+/* Hero & wrapper classes end here */
 
+/* Animation in hero & strong classes starts here */
 .hero .strong.active .out {
   opacity: 1;
   transform: scaleY(1);
   animation: textWave 0.2s ease reverse forwards;
 }
+/* Animation in hero & strong classes ends here */
 
+/* Animation in hero & wrapper classes starts here */
 .hero .wrapper .in { animation: textWave 0.2s ease forwards; }
 
 @keyframes textWave {
@@ -167,19 +192,22 @@ body {
     transform: scaleY(1);
   }
 }
+/* Animation in hero & wrapper classes ends here */
 
+/* Subtitle class starts here */
 .subtitle{
   text-align: center;
   font-family: var(--ff-gordita) ;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
+/* Subtitle class ends here */
 
+/* About section starts here */
 .about .container {
   display: grid;
   gap: 45px;
 }
-
 
 .about .section-text {
   font-size: var(--fs-6);
@@ -198,14 +226,16 @@ body {
   font-weight: var(--fw-400);
   text-decoration: underline;
 }
+/* About section ends here */
 
+/* Services section starts here */
 .service-list > li:not(:last-child) { border-block-start: 2px solid var(--white_a9); }
 
 .service-list > li:last-child { border-block: 2px solid var(--white_a9); }
+/* Services section ends here */
 
 
-
-
+/* Portfolio starts here */
 .portfolio-card :is(.card-content, .btn-icon) {
   position: absolute;
   z-index: 1;
@@ -217,7 +247,6 @@ body {
   width: 100%;
   padding: 20px 15px;
 }
-
 
 
 .portfolio-card .btn-icon {
@@ -233,23 +262,26 @@ body {
 .portfolio-card .btn-icon svg { width: 20px; }
 
 .portfolio-card .card-title:is(:hover, :focus) { text-decoration: underline; }
+/* Portfolio ends here */
 
-
-
+/* Footer starts here */
 .footer-top {
   padding-block: 100px 140px;
   border-block-start: 1px solid var(--white_a9);
   text-align: center;
   z-index: 1;
 }
+/* Footer ends here */
 
+/* Social links start here */
 .social-list {
   display: flex;
   gap: 10px;
 }
-
 .social-link:is(:hover, :focus-visible) { text-decoration: underline; }
+/* Social links end here */
 
+/* Back to top button starts here */
 .back-top-btn {
   position: fixed;
   bottom: 30px;
@@ -273,9 +305,9 @@ body {
 }
 
 .back-top-btn:hover { color: var(--white); }
+/* Back to top button ends here */
 
-
-
+/* Responsivness of the website starts here */
 @media (min-width: 575px) {
 
   :root {
@@ -363,3 +395,4 @@ body {
   .footer-top .container { max-width: 1200px; }
 
 }
+/* Responsivness of the website ends here */
