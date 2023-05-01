@@ -1,0 +1,259 @@
+/* Grid-container class starts here */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+/* Grid-container class ends here */
+
+/* Header class starts here */
+.header{
+    grid-column-start: 1 ;
+    grid-column-end: 7 ;
+    grid-row-start:1;
+    grid-row-end: 2;
+}
+/* Header class ends here */
+
+/* Heading class starts here */
+.heading{
+    grid-column-start: 1;
+    grid-column-end: 7 ;
+    grid-row-start: 3;
+    grid-row-end:4 ;
+}
+/* Heading class ends here */
+
+/* Background1 class starts here */
+.background1{
+    grid-column-start: 2;
+    grid-column-end: 6 ;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+}
+/* Background1 class ends here */
+
+/* Content1 class starts here */
+.content1{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+}
+/* Content1 class ends here */
+
+/* Content2 class starts here */
+.content2{
+    grid-column-start:4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+}
+/* Content2 class ends here */
+
+/* Background2 class starts here */
+.background2{
+    grid-column-start: 2;
+    grid-column-end: 6 ;
+    grid-row-start: 5;
+    grid-row-end:6 ;
+}
+/* Background2 class ends here */
+
+/* Body starts here */
+body{
+    background-color: #F8F5EB;
+}
+/* Body ends here */
+
+/* Logo class starts here */
+.logo{
+    width: 200px;
+    margin: 20px;
+    float: left;
+}
+/* Logo class ends here */
+
+/* Navbar class starts here */
+.navbar{
+    float: right;
+}
+/* Navbar class ends here */
+
+/* A tag in NavBar class starts here */
+.navbar a{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4A4632;
+    font-size: 1.3rem;
+    text-decoration: none;
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+/* A tag in NavBar class ends here */
+
+/* H1 starts here */
+h1{
+    font-family: "Rantera";
+    color: white;
+    font-size: 4rem;
+    background-color: #A8A191;
+    text-align: center;
+    padding: 50px;
+    margin-top: -0.1%;
+}
+/* H1 ends here */
+
+/* H2 starts here */
+h2{
+    font-family: "Rantera";
+    color: white;
+    font-size: 35px;
+    background-color: #A8A191;
+    text-align: center;
+    margin-top: -4%;
+    padding: 50px;
+}
+/* H2 ends here */
+
+/* Background1 class starts here */
+.background1{
+    border-radius: 10px;
+    width: 80%;
+    background-color: #A8A191;
+    background-clip: padding-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+/* background1 class ends here */
+
+/* background2 class starts here */
+.background2{
+    border-radius: 10px;
+    width: 80%;
+    background-color: #A8A191;
+    background-clip: padding-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+/* Background2 class ends here */
+
+/* Gardenimg1 class starts here */
+.gardenimg1{
+    height: 500px;
+    margin-top: -375px;
+    margin-left: 900px;
+    border-radius: 10px;
+}
+/* Gardenimg1 class ends here */
+
+/* Content1 class starts here */
+.content1{
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    
+}
+/* Content1 class ends here */
+
+/* P & li tags in background1 class start here */
+.background1 p, li{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: left;
+    margin-left: 50px;
+    float: left;
+}
+/* P & li tags in background1 class end here */
+
+/* Gardenimg2 class starts here */
+.gardenimg2{
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+/* Gardenimg2 class ends here */
+
+/* Content2 class starts here */
+.content2{
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+}
+/* Content2 class ends here */
+
+/* P tag in background2 class starts here */
+.background2 p{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: left;
+    margin-top: 60px;
+    margin-right: 60px;
+    float: right;
+}
+/* P tag in background2 class ends here */
+
+/* Footer class starts here */
+.footer{
+    background-color: #F8F5EB;
+}
+/* Footer class ends here */
+
+/* Hr starts here */
+hr {
+    border:none;
+    height: 20px;
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #4A4632;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+  }
+/* Hr ends here */
+
+/* H3 starts here */
+h3{
+    color: #4A4632;
+    font-family: "Rantera";
+    font-size: 35px;
+    text-align: center;
+    margin-top: -1%;
+    padding: 50px;
+}
+/* H3 ends here */
+
+/* Contactinfo class starts here */
+.contactinfo{
+    width: 50px;
+    padding: 20px;   
+}
+/* Contactinfo class ends here */
+
+/* Contact class starts here */
+.contact{
+    margin-left: 42.5%;
+    margin-top: -20px;
+}
+/* Contact class ends here */
+
+/* P tag in footer class starts here */
+.footer p{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4A4632;
+    font-size: 1rem;
+    display: block;
+    margin-left: 38.5%;
+    margin-top: 20px;
+}
+/* P tag in footer class ends here */

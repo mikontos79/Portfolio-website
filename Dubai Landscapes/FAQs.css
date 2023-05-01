@@ -1,0 +1,339 @@
+/* Grid-container class starts here */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+/* Grid-container class ends here */
+
+/* Header class starts here */
+.header{
+    grid-column-start: 1 ;
+    grid-column-end: 7 ;
+    grid-row-start:1;
+    grid-row-end: 2;
+}
+/* Header class ends here */
+
+/* Heading class starts here */
+.heading{
+    grid-column-start: 1;
+    grid-column-end: 7 ;
+    grid-row-start: 3;
+    grid-row-end:4 ;
+}
+/* Heading class ends here */
+
+/* Content1 class starts here */
+.content1{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+}
+/* Content1 class ends here */
+
+/* Content2 class starts here */
+.content2{
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end:6;
+}
+/* Content2 class ends here */
+
+/* Content3 class starts here */
+.content3{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 6;
+    grid-row-end:7 ;
+}
+/* Content3 class ends here */
+
+/* Footer class starts here */
+.footer{
+    grid-column-start: 1;
+    grid-column-end:7 ;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+/* Footer class ends here */
+
+/* Body starts here */
+body{
+    background-color: #F8F5EB;
+}
+/* Body ends here */
+
+/* Logo class starts here */
+.logo{
+    width: 200px;
+    margin: 20px;
+    float: left;
+}
+/* Logo class ends here */
+
+/* Navbar class starts here */
+.navbar{
+    float: right;
+
+}
+/* Navbar class ends here */
+
+/* A tag in NavBar class starts here */
+.navbar a{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4A4632;
+    font-size: 1.3rem;
+    text-decoration: none;
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+/* A tag in NavBar class ends here */
+
+/* H1 starts here */
+h1{
+    font-family: "Rantera";
+    color: white;
+    font-size: 4rem;
+    background-color: #A8A191;
+    text-align: center;
+    padding: 50px;
+    margin-top: -0.1%;
+}
+/* H1 ends here */
+
+/* H2 in heading class starts here */
+.heading h2{
+    font-family: "Rantera";
+    color: white;
+    font-size: 35px;
+    background-color: #A8A191;
+    text-align: center;
+    padding: 50px;
+    margin-top: -6%;
+}
+/* H2 in heading class ends here */
+
+/* P tag in heading class starts here */
+.heading p{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    background-color: #A8A191;
+    text-align: center;
+    margin-top: -4%;
+    padding: 50px;
+}
+/* P tag in heading class ends here */
+
+/* Background1 class starts here */
+.background1{
+    border-radius: 10px;
+    width: 80%;
+    background-color: #A8A191;
+    background-clip: padding-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+/* background1 class ends here */
+
+/* Content1 class starts here */
+.content1{
+    display: block;
+    margin-left: auto;
+    margin-top: 20px; 
+}
+/* Content1 class ends here */
+
+/* H2 in Content1 class starts here */
+.content1 h2{
+    font-family: "Rantera";
+    color: #4A4632;
+    font-size: 35px;
+    padding: 50px;
+    margin-top: -6%;
+}
+/* H2 in Content1 class ends here */
+
+/* Q1 class starts here */
+.q1{
+    background-color:#4A4632;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: -5%;
+}
+/* Q1 class ends here */
+
+/* A1 class starts here */
+.a1{
+    background-color:#A8A191;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    width: 100%;
+    margin-left: 145px;
+    margin-top: 2%;
+}
+/* A1 class ends here */
+
+
+/* Q2 class starts here */
+.q2{
+    background-color:#4A4632;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 5%;
+}
+/* Q2 class ends here */
+
+
+/* A2 class starts here */
+.a2{
+    background-color:#A8A191;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 7px;
+    width: 100%;
+    margin-left: 145px;
+    margin-top: 2%;
+}
+/* A2 class ends here */
+
+/* A tag inside a2 class starts here */
+.a2 a{
+    background-color:#A8A191;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+/* A tag inside a2 class ends here */
+
+/* Q3 class starts here */
+.q3{
+    background-color:#4A4632;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 5%;
+}
+/* Q3 class ends here */
+
+
+/* A3 class starts here */
+.a3{
+    background-color:#A8A191;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    width: 100%;
+    margin-left: 145px;
+    margin-top: 2%;
+}
+/* A3 class ends here */
+
+/* A tag inside a3 class starts here */
+.a3 a{
+    background-color:#A8A191;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+/* A tag inside a3 class ends here */
+
+/* H2 tag inside content2 class starts here */
+.content2 h2{
+        font-family: "Rantera";
+        color: #4A4632;
+        font-size: 35px;
+        padding: 50px;
+        margin-top: 5%;
+}
+/* H2 tag inside content2 class ends here */
+
+/* H2 tag inside content3 class starts here */
+.content3 h2{
+    font-family: "Rantera";
+    color: #4A4632;
+    font-size: 35px;
+    padding: 50px;
+    margin-top: 5%;
+}
+/* H2 tag inside content3 class ends here */
+
+/* Hr starts here */
+hr {
+    border:none;
+    height: 20px;
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #4A4632;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+}
+/* Hr ends here */
+
+/* H3 starts here */
+h3{
+    color: #4A4632;
+    font-family: "Rantera";
+    font-size: 35px;
+    text-align: center;
+    margin-top: -1%;
+    padding: 50px;
+}
+/* H3 ends here */
+
+/* Contactinfo class starts here */
+.contactinfo{
+    width: 50px;
+    padding: 20px;   
+}
+/* Contactinfo class ends here */
+
+/* Contact class starts here */
+.contact{
+    margin-left: 42.5%;
+    margin-top: -20px;
+}
+/* Contact class ends here */
+
+/* P tag in footer class starts here */
+.footer p{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4A4632;
+    font-size: 1rem;
+    display: block;
+    margin-left: 38.5%;
+    margin-top: 20px;
+}
+/* P tag in footer class ends here */
