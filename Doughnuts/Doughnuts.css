@@ -1,0 +1,661 @@
+/* Grid-container class for the website */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+/* Header class for the header section*/
+.header{
+    grid-column-start: 1 ;
+    grid-column-end: 7 ;
+    grid-row-start:1;
+    grid-row-end: 2;
+}
+
+/* Hero class for the hero section */
+.hero{
+    grid-column-start: 1 ;
+    grid-column-end: 7 ;
+    grid-row-start:2;
+    grid-row-end: 3;
+}
+
+/*  Background 1 class */
+.background1{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+/*  Content 1 class */
+.content1{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 3;
+    grid-row-end:4 ;
+}
+
+/*  Background 2 class */
+.background2{
+    grid-column-start: 4;
+    grid-column-end: 7 ;
+    grid-row-start: 3;
+    grid-row-end:4 ;
+}
+
+/*  Content 2 class */
+.content2{
+    grid-column-start: 4;
+    grid-column-end: 7 ;
+    grid-row-start: 3;
+    grid-row-end:4 ;
+}
+
+/*  Background 3 class */
+.background3{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+/*  Content 3 class */
+.content3{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 4;
+    grid-row-end: 5 ;
+}
+
+/*  Background 4 class */
+.background4{
+    grid-column-start: 4;
+    grid-column-end: 7 ;
+    grid-row-start: 4;
+    grid-row-end: 5 ;
+}
+
+/*  Content 4 class */
+.content4{
+    grid-column-start: 4;
+    grid-column-end: 7 ;
+    grid-row-start: 4;
+    grid-row-end: 5 ;
+}
+
+/*  Background 5 class */
+.background5{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 5;
+    grid-row-end: 6 ;
+}
+
+/*  Content 5 class */
+.content5{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 5;
+    grid-row-end: 6 ;
+}
+
+/*  Background 6 class */
+.background6{
+    grid-column-start: 4;
+    grid-column-end: 7 ;
+    grid-row-start: 5;
+    grid-row-end: 6 ;
+}
+
+/*  Content 6 class */
+.content6{
+    grid-column-start: 4;
+    grid-column-end: 7 ;
+    grid-row-start: 5;
+    grid-row-end: 6 ;
+}
+
+/*  Background 7 class */
+.background7{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 6;
+    grid-row-end: 7 ;
+}
+
+/*  Content 7 class */
+.content7{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 6;
+    grid-row-end: 7 ;
+}
+
+/*  Background 8 class */
+.background8{
+    grid-column-start: 4;
+    grid-column-end: 7 ;
+    grid-row-start: 6;
+    grid-row-end: 7 ;
+}
+
+/*  Content 8 class */
+.content8{
+    grid-column-start: 4;
+    grid-column-end: 7 ;
+    grid-row-start: 6;
+    grid-row-end: 7 ;
+}
+
+/* Footer class for the footer section */
+.footer{
+    grid-column-start: 1 ;
+    grid-column-end: 7 ;
+    grid-row-start:7;
+    grid-row-end: 8;
+}
+
+/* Body class */
+body{
+    margin: 0px;
+    background-color: #FFF0F2;
+}
+
+/* Logo class */
+.logo{
+    width: 350px;
+    margin: 20px;
+    float: left;
+}
+
+/* Navigation Bar class */
+.navbar{
+    float: right;
+
+}
+
+/* A tag inside the navigation bar class*/
+.navbar a{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E9007C;
+    font-size: 22px;
+    text-decoration: none;
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Hero class*/
+.hero{
+    background-image: linear-gradient(#EDC7EE, #E7DBEF);
+}
+
+/* H1 tag inside the hero class */
+.hero h1{
+    font-family: 'Bowlby One', cursive; 
+    font-size: 4rem;
+    color: white;
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+/*  P tag inside the hero class */
+.hero p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 22px;
+    width: 25%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+/*  Image class */
+.image1{
+    width: 35%;
+    float: right;
+    margin-top: -27%;
+}
+
+/*  Background 1 class */
+.background1{
+    width:90%;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid #737373;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 10px 20px 0 rgba(0,0,0,0.19);
+    margin: 5%;
+    margin-left: 20%;
+}
+/*  Background 1 class hover */
+.background1:hover{
+    transform: scale(1.1);
+}
+
+/*  Maltesers class */
+.malteser{
+    width: 20%;
+    padding: 5%;
+}
+
+/*  Maltesers class hover */
+.malteser:hover{
+    transform: scale(1.2);
+}
+
+/*  H4 tag inside the background 1 class */
+.background1 h4{
+    font-family: 'Bowlby One', cursive;
+    color: #E9007C;
+    font-size: 40px;
+    margin-top: -25%;
+    margin-left: 35%;
+}
+
+/*  P tag inside the background 1 class */
+.background1 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 22px;
+    width: 60%;
+    margin-left: 35%;
+    margin-top: -5%;
+    margin-bottom: 6%;
+}
+
+/*  Background 2 class */
+.background2{
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid #737373;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 10px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 3.5%;
+    margin-left: 15%;
+}
+
+/*  Background 2 class hover */
+.background2:hover{
+    transform: scale(1.1);
+}
+
+/*  Classic class */
+.classic{
+    width: 20%;
+    padding: 5%;
+}
+
+/*  Classic class hover */
+.classic:hover{
+    transform: scale(1.2);
+}
+
+/*  H4 tag inside the background 2 class */
+.background2 h4{
+    font-family: 'Bowlby One', cursive;
+    color: #E9007C;
+    font-size: 40px;
+    margin-top: -25%;
+    margin-left: 35%;
+}
+
+/*  P tag inside the background 2 class */
+.background2 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 22px;
+    width: 60%;
+    margin-left: 35%;
+    margin-top: -5%;
+}
+
+/*  Background 3 class */
+.background3{
+    width:90%;
+    height: 30%;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid #737373;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 10px 20px 0 rgba(0,0,0,0.19);
+    margin: 5%;
+    margin-left: 20%;
+}
+
+/*  Background 3 class hover */
+.background3:hover{
+    transform: scale(1.1);
+}
+
+/*  LemonMaringue class */
+.LemonMeringue{
+    width: 20%;
+    padding: 5%;
+}
+
+/*  LemonMaringue class hover */
+.LemonMeringue:hover{
+    transform: scale(1.2);
+}
+
+/*  H4 tag inside the background 3 class */
+.background3 h4{
+    font-family: 'Bowlby One', cursive;
+    color: #E9007C;
+    font-size: 40px;
+    margin-top: -25%;
+    margin-left: 35%;
+}
+
+/*  p tag inside the background 3 class */
+.background3 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 22px;
+    width: 60%;
+    margin-left: 35%;
+    margin-top: -5%;
+    margin-bottom: 6%;
+}
+
+/*  Background 4 class */
+.background4{
+    width: 70%;
+    height: 30%;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid #737373;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 10px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 4%;
+    margin-left: 15%;
+}
+
+/*  Background 4 class hover*/
+.background4:hover{
+    transform: scale(1.1);
+}
+
+/*  Lotus class */
+.lotus{
+    width: 20%;
+    padding: 5%;
+}
+/*  Lotus class hover */
+.lotus:hover{
+    transform: scale(1.2);
+}
+
+/*  H4 tag inside the background 4 class */
+.background4 h4{
+    font-family: 'Bowlby One', cursive;
+    color: #E9007C;
+    font-size: 40px;
+    margin-top: -25%;
+    margin-left: 35%;
+}
+/*  P tag inside the background 4 class */
+.background4 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 22px;
+    width: 60%;
+    margin-left: 35%;
+    margin-top: -5%;
+    margin-bottom: 6%;
+}
+
+/*  Background 5 class */
+.background5{
+    width:90%;
+    height: 30%;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid #737373;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 10px 20px 0 rgba(0,0,0,0.19);
+    margin: 5%;
+    margin-left: 20%;
+}
+
+/*  Background 5 class hover */
+.background5:hover{
+    transform: scale(1.1);
+}
+
+/*  Oreo class */
+.oreo{
+    width: 20%;
+    padding: 5%;
+}
+
+/*  Oreo class hover */
+.oreo:hover{
+    transform: scale(1.2);
+}
+
+/*  H4 tag inside the background 5 class */
+.background5 h4{
+    font-family: 'Bowlby One', cursive;
+    color: #E9007C;
+    font-size: 40px;
+    margin-top: -25%;
+    margin-left: 35%;
+}
+
+/*  P tag inside the background 5 class */
+.background5 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 22px;
+    width: 60%;
+    margin-left: 35%;
+    margin-top: -5%;
+    margin-bottom: 6%;
+}
+
+/*  Background 6 class */
+.background6{
+    width: 70%;
+    height: 30%;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid #737373;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 10px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 4%;
+    margin-left: 15%;
+}
+
+/*  Background 6 class hover */
+.background6:hover{
+    transform: scale(1.1);
+}
+
+/*  LemonDrizzler class */
+.LemonDrizzler{
+    width: 20%;
+    padding: 5%;
+}
+
+/*  LemonDrizzler class hover */
+.LemonDrizzler:hover{
+    transform: scale(1.2);
+}
+
+/*  H4 tag inside the background 6 class */
+.background6 h4{
+    font-family: 'Bowlby One', cursive;
+    color: #E9007C;
+    font-size: 40px;
+    margin-top: -25%;
+    margin-left: 35%;
+}
+
+/*  P tag inside the background 6 class */
+.background6 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 22px;
+    width: 50%;
+    margin-left: 35%;
+    margin-top: -5%;
+    margin-bottom: 6%;
+}
+
+/*  Background 7 class */
+.background7{
+    width:90%;
+    height: 30%;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid #737373;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 10px 20px 0 rgba(0,0,0,0.19);
+    margin: 5%;
+    margin-left: 20%;
+}
+
+/*  Background 7 class hover */
+.background7:hover{
+    transform: scale(1.1);
+}
+
+/*  Orange class */
+.orange{
+    width: 20%;
+    padding: 5%;
+}
+/*  orange class hover */
+.orange:hover{
+    transform: scale(1.2);
+}
+
+/*  H4 tag inside the background 7 class */
+.background7 h4{
+    font-family: 'Bowlby One', cursive;
+    color: #E9007C;
+    font-size: 40px;
+    margin-top: -25%;
+    margin-left: 35%;
+}
+
+/*  P tag inside the background 7 class */
+.background7 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 22px;
+    width: 60%;
+    margin-left: 35%;
+    margin-top: -5%;
+    margin-bottom: 6%;
+}
+
+/*  Background 8 class */
+.background8{
+    width: 70%;
+    height: 30%;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid #737373;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 10px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 4%;
+    margin-left: 15%;
+}
+
+/*  Background 8 class hover */
+.background8:hover{
+    transform: scale(1.1);
+}
+
+/*  Banofee class */
+.banoffee{
+    width: 20%;
+    padding: 5%;
+}
+
+/*  Banofee class hover */
+.banoffee:hover{
+    transform: scale(1.2);
+}
+
+/*  H4 tag inside the background 8 class */
+.background8 h4{
+    font-family: 'Bowlby One', cursive;
+    color: #E9007C;
+    font-size: 40px;
+    margin-top: -25%;
+    margin-left: 35%;
+}
+
+/*  P tag inside the background 8 class */
+.background8 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 22px;
+    width: 60%;
+    margin-left: 35%;
+    margin-top: -5%;
+    margin-bottom: 6%;
+}
+
+/* Footer class */
+.footer{
+    background-image: linear-gradient(#E7DBEF, #EDC7EE);
+}
+
+/* Follow Us class */
+.followus{
+    font-family: 'Bowlby One', cursive;
+    color: white;
+    font-size: 27px;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+/* Icons class */
+.icons{
+    width: 50px;
+}
+
+/* Location class */
+.location{
+    font-family: 'Bowlby One', cursive;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    margin-top: -11%;
+}
+
+/* A tag inside the location class */
+.location a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Email class */
+.email{
+    font-family: 'Bowlby One', cursive;
+    color: white;
+    font-size: 27px;
+    margin-left: 70%;
+    margin-top: -15%;
+    text-align: center;
+}
+
+/* P tag inside the email class */
+.email p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 20px;
+}
+
+/* Copyright class */
+.copyright{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 20px;
+    text-align: center;
+    padding: 2%;
+    margin-top: 10%;
+}

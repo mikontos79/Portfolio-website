@@ -1,0 +1,204 @@
+/* Grid-container class for the website */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+/* Header class for the header section*/
+.header{
+    grid-column-start: 1 ;
+    grid-column-end: 7 ;
+    grid-row-start:1;
+    grid-row-end: 2;
+}
+
+/* Hero class for the hero section */
+.hero{
+    grid-column-start: 1 ;
+    grid-column-end: 7 ;
+    grid-row-start:2;
+    grid-row-end: 3;
+}
+
+/* Main class for the main section */
+.main{
+    grid-column-start: 1 ;
+    grid-column-end: 7 ;
+    grid-row-start:3;
+    grid-row-end: 4;
+}
+
+/* Footer class for the footer section */
+.footer{
+    grid-column-start: 1 ;
+    grid-column-end: 7 ;
+    grid-row-start:4;
+    grid-row-end: 5;
+}
+
+/* Body class */
+body{
+    margin: 0px;
+    background-color: #FFF0F2;
+}
+
+/* Logo class */
+.logo{
+    width: 350px;
+    margin: 20px;
+    float: left;
+}
+
+/* Navigation Bar class */
+.navbar{
+    float: right;
+
+}
+
+/* A tag inside the navigation bar class*/
+.navbar a{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E9007C;
+    font-size: 22px;
+    text-decoration: none;
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Hero class*/
+.hero{
+    background-image: linear-gradient(#EDC7EE, #E7DBEF);
+}
+
+/* H1 tag inside the hero class */
+.hero h1{
+    font-family: 'Bowlby One', cursive;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* P tag inside the hero class */
+.hero p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+/* Image class */
+.image1{
+    width: 25%;
+    float: left;
+    margin-top: -12%;
+}
+
+/* Image class */
+.image2{
+    width: 20%;
+    float: right;
+    margin-top: -27%;
+}
+
+/* Image class */
+.image3{
+    width: 30%;
+    margin-top: 7%;
+    margin-left: 12%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/* Image hover class */
+.image3:hover{
+    width: 31%;
+}
+
+/* H2 tag inside the main class */
+.main h2{
+    font-family: 'Bowlby One', cursive;
+    color: #E9007C;
+    font-size: 40px;
+    margin-left: 63%;
+    margin-top: -27%;
+}
+
+/* P tag inside the main class */
+.main p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 20px;
+    width: 30%;
+    margin-left: 55%;
+    margin-bottom: 5%;
+}
+
+/* Footer section */
+.footer{
+    background-image: linear-gradient(#E7DBEF, #EDC7EE);
+}
+
+/* Followus class */
+.followus{
+    font-family: 'Bowlby One', cursive;
+    color: white;
+    font-size: 27px;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+/* Icons class */
+.icons{
+    width: 50px;
+}
+
+/* Location class */
+.location{
+    font-family: 'Bowlby One', cursive;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    margin-top: -11%;
+}
+
+/* A tag inside the location class class */
+.location a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Email class */
+.email{
+    font-family: 'Bowlby One', cursive;
+    color: white;
+    font-size: 27px;
+    margin-left: 70%;
+    margin-top: -15%;
+    text-align: center;
+}
+
+/* P tag inside the email class */
+.email p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 20px;
+    
+}
+
+/* Copyright class */
+.copyright{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    font-size: 20px;
+    text-align: center;
+    padding: 2%;
+    margin-top: 10%;
+}
